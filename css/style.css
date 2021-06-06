@@ -417,6 +417,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .navbar-default .navbar-toggle:hover>.icon-bar {
 	background-color: #FFF;
 }
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #FFF;
+}
 .section-title {
 	margin-bottom: 70px;
 }
@@ -572,6 +575,9 @@ header .intro-text {
 	margin-top: -26px;
 }
 /* Portfolio Section */
+.portfolio-item{
+	width: 100%;
+}
 #portfolio {
 	padding: 0 0 120px 0;
 }
@@ -995,6 +1001,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', end
 	.phone {
 		margin-bottom: 40px;
 	}
+}
+
+@media (max-width: 992px) {
+	.intro-text h1{
+		font-size: 130px;
+		margin-top: 70px;
+	}
+}
+
+.navbar-toggle{
+	border: 0px;
 }
 
 .card{position:relative;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;min-width:0;word-wrap:break-word;background-color:#fff;background-clip:border-box;border:1px solid rgba(0,0,0,.125);border-radius:.25rem}
