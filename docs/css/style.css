@@ -1028,3 +1028,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', end
 .modal-backdrop{
 	display: none;
 }
+
+#spanTitolo{
+	font-size: 25px;
+	color: white;
+	font-weight: 300;
+}
